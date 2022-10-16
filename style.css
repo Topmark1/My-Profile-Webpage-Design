@@ -1,0 +1,21 @@
+@keyframes animation1{
+    from{opacity:0}
+    to{opacity:1}}
+    
+    @keyframes animation2{
+    from{opacity:0;padding-left:30px}
+    to{opacity:1;padding-left:100px}}
+    
+    *{font-family:candara;background-color:rgb(255, 239, 242)}
+    #outer{margin:50px}
+    h1{font-size:50px;letter-spacing:12px}
+    #na{border-radius:7px;background-color:rgb(147, 108, 115);width:100%;height:50px;margin-top:-25px;box-sizing:border-box;padding:10px;padding-left:50px;position:absolute}
+    #boxK{display:flex;margin:40px 0px}
+    #pink{animation-name:animation2;animation-duration:4s;animation-timing-function:ease;animation-iteration-count:infinite;width:100%;height:50px;margin-top:-25px;font-size:22px;box-sizing:border-box;padding:10px;padding-left:50px}
+    #boxK{display:flex;flex-wrap:wrap;margin:40px 0px}
+    .box{cursor:pointer;border:2px solid rgba(147, 108, 115,0.5);width:150px;height:150px;margin-left:120px;text-align:center;line-height:20px;box-sizing:border-box;padding-top:50px}
+    .box:hover{border:none;background:pink;width:180px;height:180px;font-size:25px;box-sizing:border-box;padding:10px;padding-top:50px}
+    a{text-decoration:none;color:black}
+    span{animation-name:animation1;animation-duration:4s;animation-timing-function:ease;animation-iteration-count:infinite;font-size:40px;color:rgb(0,0,255);font-weight:bold}
+    .linkk{color:black;cursor:pointer;font-size:20px;text-decoration:none;background-color:rgb(227, 172, 182)}
+    .link{padding:5px;border-radius:5px;background-color:rgb(147, 108, 115);width:120px;}
